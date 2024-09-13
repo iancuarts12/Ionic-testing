@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Login</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+    <ion-card-content class = "card">
+
+      <ion-card-header>
+        <img src="../assets/cool.jpg">
+        <ion-card-title class="head">This is Me Trying Cards</ion-card-title>
+        <ion-card-subtitle class="subtitle">Goodluck Future Me!</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-item>
+        <ion-label>UserName: </ion-label>
+        <ion-input placeholder="UserName"></ion-input>
+      </ion-item>
+      <br>
+      <ion-item>
+        <ion-label>Password: </ion-label>
+        <ion-input placeholder="Password" type="password"></ion-input>
+      </ion-item>
+      <br>
+      <ion-button (click)=LogMeIn() class="login-button" > Login! </ion-button>
+    </ion-card-content>
+</ion-content>

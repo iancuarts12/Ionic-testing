@@ -1,0 +1,7 @@
+{
+  "name": "self_study",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
